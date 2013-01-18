@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />	
+<title>Contact - Dmitry Marduk Portfolio</title>
+<meta name="description" content="Contact Web Designer Dmitry Marduk" />
+<meta name="keywords" content="" />
+
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/960.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/default.css" />
+
+<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#email-form").validate();
+});
+</script>
+</head>
+
+
+<body>
+
+
+<div id="wrapper">
+  <!--TOP NAVIGATION STARTS -->
+  
+  <div class="container-fluid">
+    <div class="container_12"><div class="grid_12">
+      <div class="contact-page">
+<!--#include virtual="ssi/mainnav.shtml"--> 
+        </div><!--contact-page -->
+    </div><!--grid_12 --></div><!--container_12 -->
+  </div><!--container-fluid -->
+  
+  <!--TOP NAAVIGATION ENDS -->
+
+
+<!--MAIN CONTENT START-->
+
+  <div class="container_12">
+    <div class="grid_12">	
+    <!--PAGE TITLE START-->
+
+<script type="text/javascript" src="js/breadcrumbs.js"></script>
+
+    <h1>Contact Dmitry</h1>
+    <div class="page-title-bar"></div>
+    <!--PAGE TITLE END-->
+    </div>
+    
+    <!--FORM START -->
+    <div class="grid_6">
+
+
+
+<form id="email-form" action="http://kooljoy.com/webformmailer.php" method="post">
+
+<input name="subject" value="Submission" type="hidden" />
+<input name="redirect" value="thankyou.html" type="hidden" /> 
+<fieldset class="contact-form">
+<dl style="padding-top:0">
+<dt>
+<label for="contact-author">Your Name:</label>
+</dt>
+<dd>
+<input class="contact-author required" title="Your name is required." name="name" type="text" />
+<!--<label class="error" for="contact-author" generated="true">Your name is required.</label> -->
+</dd>
+</dl>
+
+
+
+<dl>
+<dt>
+<label for="contact-email">Your Email:</label>
+</dt>
+<dd>
+<input class="contact-email required email" title="A valid email address is required." name="email" type="text" />
+<!--<label class="error" for="contact-email" generated="true">A valid email address is required.</label> -->
+</dd>
+</dl>
+
+<dl>
+<dt>
+<label for="contact-url">Your Website:<span> (optional)</span></label>
+</dt>
+<dd>
+<input class="contact-url" class="url" title="Please use a valid web address." name="website" type="text"/>
+</dd>
+</dl>
+
+<dl>
+<dt>
+<label for="contact-url">Your Message:</span></label>
+</dt>
+<dd>
+<textarea class="contact-text required" cols="28" rows="10" title="Enter a message!" name="message"/></textarea>
+<!--<label class="error" for="contact-text" generated="true">Enter a message!</label> -->
+</dd>
+</dl>
+
+
+<p>
+<input type="image" class="send" name="submit" src="images/buttons/send-message-btn.png">
+
+</p>
+</fieldset>
+
+<input name="form_order" value="alpha" type="hidden" /> 
+<input name="form_delivery" value="default" type="hidden" /> 
+<input name="form_format" value="html" type="hidden" /> 
+
+</form>
+    
+    
+    </div>
+    <!--FORM END -->
+    
+    <!--TEXT START -->
+    <div class="grid_6">
+    <p><strong>You have questions, let’s talk about it!</strong></p> 
+      
+  <p>Take advantage of the easy to use contact form or you can contact me directly at dmitrymar@yahoo.com</p>
+      
+  <p>I can walk you though all of the stages involved and how I can best assist you in turning your project idea into a finished product. 
+  </p>
+  <p>If you would like for me to supply a quick quote for your project, please be as descriptive as possible regarding the specifics of what you would like to achieve.  If applicable, include links to example websites.  I look forward to hearing from you!</p>
+    
+<div class="social-horizontal" style="width:458px">
+			  <ul class="social">
+						<li><a href="images/dmitry-marduk-vcard.vcf" class="vcard">Download vCard</a></li>
+						<li><a href="skype:dmitrymarduk" class="skype">Skype</a></li>
+						<li><a href="http://www.linkedin.com/in/dmitrymarduk" class="linkedin">Linkedin</a></li>
+				  </ul>
+</div>
+    
+    
+    </div>
+    <!--TEXT END -->
+    
+    
+<div class="clear"></div>
+<!--MARKETING END -->
+  
+  </div><!--container_12 -->
+<div class="clear"></div>
+<!--MAIN CONTENT END-->
+
+<!--FOOTER STARTS-->
+<!--#include virtual="ssi/footer.shtml"--> 
+<!--FOOTER ENDS-->
+
+
+
+</div><!--wrapper ends -->
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+          <div class="main-nav">
+          
+          <h1><a href="http://kooljoy.com/index.html" title="Dmitry Marduk">Dmitry Marduk, Web and Graphic Designer</a></h1>
+          <h2><a href="http://kooljoy.com/index.html" title="Web Developer & Designer">Web Developer & Designer</a></h2>
+          
+          <ul class="topnav">
+          <li class="portfolio"><a href="http://kooljoy.com/portfolio/index.html" title="Portfolio"><img src="http://kooljoy.com/images/i.gif" alt="Portfolio" /></a></li>
+          <li class="services"><a href="http://kooljoy.com/services/index.html" title="Services"><img src="http://kooljoy.com/images/i.gif" alt="Services" /></a></li>
+          <li class="about"><a href="http://kooljoy.com/about.html" title="About"><img src="http://kooljoy.com/images/i.gif" alt="About" /></a></li>
+          <li class="contact"><a href="http://kooljoy.com/contact.html" title="Contact"><img src="http://kooljoy.com/images/i.gif" alt="Contact" /></a></li>
+          </ul>
+          
+          </div>

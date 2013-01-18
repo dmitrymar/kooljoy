@@ -1,0 +1,184 @@
+/* GENERAL STYLE STARTS */
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+body {
+  
+  background-color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 20px;
+  font-size: 12px;
+  color: #333333;
+  margin-top:10px;
+}
+#container {
+  margin: auto;
+  width: 940px;
+}
+.separator {
+  background-image: url(../images/separator.png);
+  background-repeat: no-repeat;
+  float:left;
+  height: 1px;
+  width: 940px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.left {float:left}   
+.right {float:right}
+
+a { overflow: hidden; } /* truncates long dotted outline wrap around negatively indented text links */
+.hidden {display: none; }
+
+a { color: #0092dc; text-decoration: none; }
+a:hover { color: #000; text-decoration: underline; }
+
+/* GENERAL STYLE ENDS */
+
+/* STYLE #top SECTION ELEMENTS START */
+
+#navigation {
+  background-image: url(../images/top-bg.png);
+  background-repeat: repeat-x;
+  height: 66px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#header h1 {
+	display:block;
+	float:left;
+	position:relative;
+	width:167px;
+	height:66px;
+	text-indent:-9999px;
+}
+
+#header h2 {
+	display:inline;
+	float:left;
+	position:relative;
+	background: url(../images/trade.png) no-repeat left top;
+	height: 66px;
+	top: 0px;
+	width: 389px;
+}
+
+#header h1 a {
+  display:block;
+  width:100%;
+  height:100%;
+  background:url(../images/logo.png) no-repeat 0 0;
+  outline:none;
+}
+
+#header h1 a:hover{background-position:0px -66px;}
+#header h1 a.selected{background-position:0px 0px;} 
+
+
+
+
+#navigation ul {
+  display:block;
+  float:right;
+  width:403px;
+  height:66px;
+  background:url(images/nav-sprite.png) no-repeat 0 0;
+  list-style:none;
+}
+#navigation ul li {
+  display:block;
+  float:left;
+  height:66px;
+  text-indent:-10000px;
+}
+
+#navigation ul li a {
+  display:block;
+  width:100%;
+  height:100%;
+}
+
+
+
+p {
+	border: 1px solid #666;
+	overflow: hidden;
+	padding: 10px 0;
+	text-align: center;
+}
+	
+/* Sets background image positions of initial state */
+
+#portfolio a { background: url(../images/nav-sprite.png) 0 0; }
+#services a { background: url(../images/nav-sprite.png) -114px 0; }
+#about a { background: url(../images/nav-sprite.png) -215px 0; }
+#contact a { background: url(../images/nav-sprite.png) -301px 0; }
+
+/* Sets positions of initial state */
+#portfolio { top: 0; left: 0px; width: 114px; }
+#services { top: 0; left: 114px; width: 101px; }
+#about { top: 0; left: 215px; width: 86px; }
+#contact { top: 0; left: 301px; width: 102px; }
+
+/* Sets background image positions of hover state */
+#portfolio a:hover { background: transparent url(../images/nav-sprite.png) 0px -66px no-repeat; height: 66px; }
+#services a:hover { background: transparent url(../images/nav-sprite.png) -114px -66px no-repeat; height: 66px; }
+#about a:hover { background: transparent url(../images/nav-sprite.png) -215px -66px no-repeat; height: 66px; }
+#contact a:hover { background: transparent url(../images/nav-sprite.png) -301px -66px no-repeat; height: 66px; }
+
+/* You are here. */
+#portfolio a.selected { background:  url(../images/nav-sprite.png) 0px -132px no-repeat; height: 66px; z-index: 100; }
+#services a.selected { background: transparent url(../images/nav-sprite.png) -114px -132px no-repeat; height: 66px; }
+#about a.selected { background: transparent url(../images/nav-sprite.png) -215px -132px no-repeat; height: 66px; }
+#contact a.selected { background: transparent url(../images/nav-sprite.png) -301px -132px no-repeat; height: 66px; }
+
+
+/* STYLE #top SECTION ELEMENTS END */
+
+
+
+/* WELCOME AREA STARTS */
+
+.welcome {
+  width:480px;
+  float:left;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.monitor {
+background:url(../images/featured/ajhomepage.jpg) no-repeat 0 0;
+height:340px;
+}
+
+.welcometext {
+background:url(../images/featuredtext.png) no-repeat 0 0;
+height:149px;
+}
+
+/*WECOME AREA ENDS */
+
+
+/* FOOTER STARTS */
+.footerline {
+  background-image: url(../images/footerline.png);
+  background-repeat: repeat-x;
+  height: 9px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#footer {
+  font-size: 11px;
+  color: #666666;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#footer a { color: #666666; text-decoration: none; }
+#footer a:hover { color: #000; text-decoration: underline; }
+/* FOOTER ENDS */

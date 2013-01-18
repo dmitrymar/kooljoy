@@ -1,0 +1,722 @@
+/*-----------------------------------------------------------------------------
+
+version:   1.0
+
+author:    Dmitry Marduk
+
+email:     dmitrymar@yahoo.com
+
+website:   http://www.kooljoy.com/
+
+-----------------------------------------------------------------------------*/
+
+/* @todo: work on top nav */
+
+/* @bugfix: None */
+
+/* Color Variables
+
+@colordef #666666; medium gray
+
+@colordef #0092dc; blue
+
+*/
+
+
+
+/* GENERAL STYLES STARTS */
+
+* {
+
+  margin: 0px;
+
+  padding: 0px;
+
+  border: none;
+
+}
+
+
+
+body {
+
+  
+
+  background-color: #ffffff;
+
+  font-family: Helvetica,Arial,sans-serif;
+
+  color: #333333;
+
+  margin-top:10px;
+
+  font-size:12px;
+
+  line-height: 20px;
+
+
+
+}
+
+
+
+/* Typography
+
+===================================================*/
+
+h1, h2, h3 {
+
+	font-family: 'Droid Sans', 'Lucida Grande', 'Trebuchet MS', Tahoma, Helvetica, Arial, sans-serif;
+
+	color: #0092dc;
+
+}
+
+
+
+h1 { font-size: 36px; line-height: 18px; margin-bottom: 0px; }
+
+h2 { font-size: 26px; line-height: 24px; margin: 10px 0; }
+
+h3 { font-size: 17px; line-height: 22px; margin: 10px 0; font-weight:bold; color: #666666; }
+
+
+
+h4 {font-weight:bold;}
+
+
+
+p { margin-bottom: 20px; }
+
+
+
+* {
+
+font-style:normal;
+
+font-weight:normal;
+
+text-align:left;
+
+text-decoration:none;
+
+text-indent:0;
+
+}
+
+
+
+.bullet-list li {
+
+background: url(../images/bullet.png) no-repeat left;
+
+padding-left: 10px;
+
+}
+
+
+
+strong {
+
+font-weight:bold;
+
+}
+
+/* Links
+
+===================================================*/
+
+
+
+a { overflow: hidden; } /* truncates long dotted outline wrap around negatively indented text links */
+
+.hidden {display: none; }
+
+
+
+a { color: #0092dc; text-decoration: none; }
+
+a:hover { color: #000; text-decoration: underline; }
+
+
+
+.image-border { border:1px solid #cccccc;}
+
+
+
+/* Social Media Links Start */
+
+
+
+.social-vertical {
+
+width: 140px; float: left; margin: 0 0 0 0px;
+
+}	
+
+
+
+.social-horizontal {
+
+width: 1000px; float: left; margin: 0 0 0 0px;
+
+}	
+
+
+
+.social-vertical li {
+
+list-style: none; margin: 0 15px 40px 0;
+
+}
+
+.social-horizontal li {
+
+list-style: none; float: left; margin: 0 40px 8px 0;
+
+}
+
+
+
+.social a {
+
+color: #666666; size:14px; text-decoration: none; 
+
+}
+
+
+
+.social a:hover, .social a:focus { color: #000000; text-decoration: underline; }
+
+
+
+.social li a {
+
+display: block; height: 20px; padding: 0px 0 0 33px;
+
+}
+
+
+
+.social li a.vcard { background: url(../images/vcard-icon.png) 0 0 no-repeat; padding-left:40px; }
+
+.social li a.twitter { background: url(../images/social-sprite.png) 0 0 no-repeat; }
+
+.social li a.behance { background: url(../images/social-sprite.png) 0 -20px no-repeat; }
+
+.social li a.lastfm { background: url(../images/social-sprite.png) 0 -40px no-repeat; }
+
+.social li a.linkedin { background: url(../images/social-sprite.png) 0 -60px no-repeat; }
+
+.social li a.deviant { background: url(../images/social-sprite.png) 0 -80px no-repeat; }
+
+.social li a.skype { background: url(../images/social-sprite.png) 0 -100px no-repeat; }
+
+
+
+/* Social Media Links End*/
+
+
+
+
+
+/* GENERAL STYLES ENDS */
+
+
+
+/* HELPER STYLES(forms and error messages) START */
+
+
+
+/* HELPER STYLES(forms and error messages) END */
+
+
+
+/* PAGE STRUCTURE STARTS */
+
+
+
+/* Positioning
+
+===================================================*/
+
+.left {float:left}   
+
+.right {float:right}
+
+.clear {clear: both;}
+
+
+
+/* Layout
+
+===================================================*/
+
+.container-fluid {
+
+  background-image:url(../images/top-bg.png);
+
+  background-repeat: repeat-x;
+
+  height: 66px;
+
+  margin-top: 10px;
+
+  margin-bottom: 0px;
+
+}
+
+
+
+
+
+.container-940 {
+
+  width: 940px;
+
+  margin: 0 auto;
+
+  padding: 0 0 0 0;
+
+  text-align: left;
+
+}
+
+
+
+.container-300 {
+
+  width: 300px;
+
+  margin: 0 auto;
+
+  padding: 0 0 0 0;
+
+  text-align: left;
+
+}
+
+
+
+/* Top Navigation
+
+===================================================*/
+
+.main-nav {
+
+	margin: 0px 0px 0 0px;
+
+	padding: 0;
+
+	width: 940px;
+
+}
+
+.main-nav a {
+
+	border: none;
+
+	outline: none;
+
+}
+
+.main-nav h1 {
+
+	background: transparent;
+
+	float: left;
+
+	display: inline;
+
+	width: 167px;
+
+	height: 66px;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+.main-nav h1 a {
+
+	background: transparent url(../images/logo.png) no-repeat 0 0px;
+
+	display: block;
+
+	width: 167px;
+
+	height: 66px;
+
+	margin: 0;
+
+	padding: 0;
+
+	text-indent: -9999px;
+
+}
+
+.main-nav h1 a:hover, .main-nav h1 a:focus {
+
+	background: transparent url(../images/logo.png) no-repeat 0 -66px;
+
+	text-decoration: none;
+
+}
+
+.main-nav h2 {
+
+	float: left;
+
+	display: inline;
+
+	width: 216px;
+
+	height: 66px;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+.main-nav h2 a {
+
+	background: transparent url(../images/trade.png) no-repeat 0 0px;
+
+	display: block;
+
+	width: 216px;
+
+	height: 66px;
+
+	margin: 0;
+
+	padding: 0;
+
+	text-indent: -9999px;
+
+}
+
+.topnav {
+
+	background: transparent;
+
+	float: right;
+
+	display: inline;
+
+	height: 66px;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+.topnav li {
+
+	float: left;
+
+	display: inline;
+
+	height: 66px;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+.topnav a {
+
+	background: transparent url(../images/nav-sprite.png) no-repeat 0 -66px;
+
+	display: block;
+
+	height: 66px;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+
+
+/* topnav static settings */
+
+.topnav .portfolio a {
+
+	background-position: 0px 0px;
+
+	width: 114px;
+
+}
+
+
+
+.topnav .services a {
+
+	background-position: -114px 0px;
+
+	width: 101px;
+
+}
+
+.topnav .about a {
+
+	background-position: -215px 0px;
+
+	width: 86px;
+
+}
+
+.topnav .contact a {
+
+	background-position: -301px 0px;
+
+	width: 102px;
+
+}
+
+
+
+
+
+/* Sets background image positions of hover state */
+
+.topnav .portfolio a:hover, .topnav .portfolio a:focus {
+
+	background-position: 0px -66px;
+
+}
+
+.topnav .services a:hover, .topnav .services a:focus {
+
+	background-position: -114px -66px;
+
+}
+
+.topnav .about a:hover, .topnav .about a:focus {
+
+	background-position: -215px -66px;
+
+}
+
+.topnav .contact a:hover, .topnav .contact a:focus {
+
+	background-position: -301px -66px;
+
+}
+
+
+
+
+
+/* styles for current page */
+
+.home-page .main-nav h1 a {
+
+	background-position: 0 0px;
+
+}
+
+.home-page .main-nav h1 a:hover, .home-page .main-nav h1 a:focus {
+
+	cursor: default;
+
+}
+
+.portfolio-page .topnav .portfolio a {
+
+	background-position: 0px -132px;
+
+	cursor: default;
+
+}
+
+.services-page .topnav .services a {
+
+	background-position: -114px -132px;
+
+	cursor: default;
+
+}
+
+.about-page .topnav .about a {
+
+	background-position: -215px -132px;
+
+	cursor: default;
+
+}
+
+.contact-page .topnav .contact a {
+
+	background-position: -301px -132px;
+
+	cursor: default;
+
+}
+
+
+
+/* Footer
+
+===================================================*/
+
+#footerline {
+
+  background-image: url(../images/footerline.png);
+
+  background-repeat: repeat-x;
+
+  height: 9px;
+
+  margin-top: 5px;
+
+  margin-bottom: 5px;
+
+}
+
+
+
+.footer {
+
+  font-size: 11px;
+
+  color: #666666;
+
+  margin-top: 5px;
+
+  margin-bottom: 0px;
+
+  padding-bottom:25px;
+
+}
+
+
+
+.footer a { color: #666666; text-decoration: none;}
+
+.footer a:hover { color: #000; text-decoration: underline;}
+
+
+
+
+
+/* Page Furniture
+
+===================================================*/
+
+.separator-main {
+
+  background-image: url(../images/separator.png);
+
+  background-repeat: no-repeat;
+
+  float:left;
+
+  height: 1px;
+
+  width:940px;
+
+  margin-top: 5px;
+
+  margin-bottom: 5px;
+
+}
+
+
+
+.page-title-bar {
+
+  background-image: url(../images/page-title-bar.png);
+
+  background-repeat: no-repeat;
+
+  float:left;
+
+  height: 1px;
+
+  width:940px;
+
+  margin-top: 20px;
+
+  margin-bottom: 19px;
+
+}
+
+
+
+/* PAGE STRUCTURE ENDS */
+
+
+
+/* PAGE SPECIFIC COMPONENTS START */
+
+
+
+/* Home Page
+
+===================================================*/
+
+
+
+.previews h3{padding:0 0 0 35px;line-height:25px;background:transparent url(../images/previews-sprite.png) top left no-repeat;
+
+}
+
+
+
+.previews .previews-services{background-position:0 0px;}
+
+
+
+
+
+padding-left: 10px;
+
+}
+
+
+
+/* About Page
+
+===================================================*/
+
+.about-text {
+
+	width: 620px;
+
+	text-align: justify;
+
+}
+
+ 
+
+.about-text img {
+
+  float: left;
+
+  width:220px;
+
+	padding: 0px 20px 10px 0px;
+
+}
+
+ 
+
+
+
+/* PAGE SPECIFIC COMPONENTS END */
+
+
+
+/* OVERRIDES START */
+
+
+
+/* OVERRIDES END */
+

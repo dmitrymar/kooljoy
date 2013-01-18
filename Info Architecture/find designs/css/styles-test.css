@@ -1,0 +1,52 @@
+/* CSS Reset */
+* { margin:0; padding:0; }
+body {
+}
+
+#container {
+  width:940px;
+  margin:0 auto;
+}
+
+h1 {
+
+	width:167px;
+	height:66px;
+	text-indent:-9999px;
+}
+
+h2 {
+	position:relative
+	background: url(../images/trade.png) no-repeat left top;
+	height: 66px;
+	top: 0px;
+	width: 389px;
+}
+
+h1 a {
+  display:inline;
+  width:100%;
+  height:100%;
+  background:url(../images/logo.png) no-repeat 0 0;
+  outline:none;
+}
+
+h1 a:hover{background-position:0px -66px;}
+h1 a.selected{background-position:0px 0px;} 
+
+div#left {
+    float: left;
+    width: 167px;
+	height:66px;
+}
+div#right {
+    float: right;
+    width: 167px;
+	height:66px;
+    background-color: green;
+}
+div#middle {
+	height: 66px;
+	top: 0px;
+	width: 389px;
+}

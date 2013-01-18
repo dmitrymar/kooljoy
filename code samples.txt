@@ -1,0 +1,19 @@
+title
+description
+short description
+thumb
+large image
+link to source
+link to demo
+link to download
+html code section
+css code section
+javascript code section
+php code section 
+Code Sample Details
+*Technology: Javascript
+Client: Maxvite.com
+Page title for <title> tag
+Page title for meta description tag
+keywords for meta keywords tag
+../images/buttons/view-samples-btn.png") no-repeat scroll 0 0 transparent

@@ -1,0 +1,193 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+}
+header {
+	background:#ffffff url(/img/topnav-bg.png) repeat-x right top;
+	height: 92px; 
+    left: 0;
+    overflow: visible;
+    position: relative;
+    right: 0;
+    top: 0;
+	
+	}
+#headerContain {
+	width: 940px;
+	margin: 0 auto;
+}
+header .btn-group {
+	float:right;
+	position:relative;
+	margin-top:15px;
+}
+header .btn-group a {
+	font-family: 'Droid Sans','Lucida Grande','Trebuchet MS',Arial,sans-serif;
+	font-weight:400;
+	font-size: 15px;
+	color: #333;	
+}
+#brand, #trade {
+	font-family: 'Droid Sans','Lucida Grande','Trebuchet MS',Arial,sans-serif;
+	line-height:18px;
+	font-weight:400;
+    display: inline;
+    float: left;
+	color:#333;
+}
+#brand {
+		font-size:25px;
+		margin:25px 0 0;
+}
+#brand:hover, #trade:hover{
+	color:#0092dc;
+	text-decoration:none;
+}
+#trade {
+	    font-size: 15px;
+		margin:28px 20px 0;	
+}
+.container {
+	min-height:600px;
+	position:relative;
+}
+footer {
+position:relative;
+bottom:0;	
+}
+.lead {
+	font-size:15px;
+	line-height:21px;
+	margin-bottom:9px;
+}
+h1 {
+    font-family: 'Droid Sans','Lucida Grande','Trebuchet MS',Arial,sans-serif;	
+	color:#0092DC;
+	font-weight:400;
+}
+h2, h3 {color:#333;}
+.page-header {
+padding-bottom: 9px;
+}
+.hero-container {
+	margin-top:20px;
+}
+.hero-container h1 {
+	font-size:40px;
+	line-height: normal;
+	margin-bottom:10px;
+}
+.hero-container p.lead {
+	margin-bottom:20px;
+}
+
+#dmitryHome {
+	padding-left:40px;
+}
+footer {
+  margin-top: 45px;
+  padding: 25px 0 36px;
+  border-top: 1px solid #e5e5e5;	
+}
+label, input, select, textarea, .help-block {
+    font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.actions {
+	background:none;
+	padding-top:0;
+	border:none;
+}
+.form-stacked {
+	padding-left:0;
+}
+fieldset small {
+	color:#bfbfbf;
+}
+.error p {
+	color: #B94A48;
+	padding-left: 5px;
+}
+form input.invalid, form textarea.invalid {
+    border-color: #EE5F5B;
+    color: #B94A48;	
+}
+form input.invalid:focus, form textarea.invalid:focus {
+    border-color: #E9322D;
+    box-shadow: 0 0 6px #F8B9B7;
+}
+#slider {
+	z-index:0;
+	position:relative;
+	width:460;height:345px;
+}
+#featured_tab {
+	z-index:1;
+	position:absolute;
+left:-23px;
+top:30px;
+}
+
+.slide img {
+	border:1px solid #d5d5d5;
+}
+
+/*Slideshows*/
+.homeslider, .slideshow {
+	  position:relative;
+	  display:block;
+}
+.homeslider img {
+width:460px;
+height:340px;
+display:block;
+}
+.homeslider nav, .slideshow nav { 
+width:15px;
+	height: 100px;
+	z-index: 10;
+	float:left;
+	position: absolute;
+	left: -19px;
+top: 170px;
+ }
+.slideshow nav { 
+top: 20px;
+ }
+.homeslider nav a, .slideshow nav a {
+background-image:url(/img/dots_08c.png);
+background-repeat:no-repeat;
+background-position: left top;
+text-indent: -9999px;
+color: #fff;
+	width: 15px;
+	height: 15px;
+	display:block;
+	cursor: pointer;
+	font-size: 1px;
+	}
+.homeslider nav a.activeSlide, .homeslider nav a.activeSlide:hover, .slideshow nav a.activeSlide, .slideshow nav a.activeSlide:hover  { 
+background-position: left bottom;
+cursor:default;	
+}
+.homeslider nav a:hover, .slideshow nav a:hover { background-position: left center; }
+.homeslider nav a:focus, .slideshow nav a:focus { outline: none; }
+
+#ajui {
+width:700px;
+height:308px;	
+}
+
+.image-border {
+  border: 1px solid #ddd;
+}
+
+textarea {
+	margin-bottom:0
+}
+p.help-block + button {
+	margin-top:20px;
+}
+.icon-external {
+background-position: 0 0;
+background-image:url(/img/external-icon.gif)
+}

@@ -1,0 +1,62 @@
+/*
+ * Header
+ */
+header {
+    background-repeat: repeat-x;
+    height: 57px;
+    left: 0;
+    overflow: visible;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+background-color: #e0e0e0;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e0e0e0'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e0e0e0)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #fff,  #e0e0e0); /* for firefox 3.6+ */ 
+    background-repeat: repeat-x;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
+}
+
+header ul {
+	float:right;
+	display:block;
+	font-family: 'Droid Sans','Lucida Grande','Trebuchet MS',Arial,sans-serif;
+	font-size:15px;
+	margin:0;
+}
+header ul a {
+	color:#333;
+	
+}
+header ul.pills a {
+	margin: 13px 3px 5px 0;	
+}
+header ul.pills a:hover, header ul.pills .active a {
+    background: none repeat scroll 0 0 #555;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+header h1, header h2 {
+	font-family: 'Droid Sans','Lucida Grande','Trebuchet MS',Arial,sans-serif;
+	line-height:18px;
+	font-weight:400;
+    display: inline;
+    float: left;
+}
+header h1 {
+		font-size:25px;
+		margin:20px 0 0;
+}
+header h1 a, header h2 a {
+	color:#333;
+
+}
+header h1 a:hover, header h2 a:hover{
+	color:#0092dc;
+	text-decoration:none;
+}
+header h2 {
+	    font-size: 15px;
+		margin:23px 20px 0;	
+}

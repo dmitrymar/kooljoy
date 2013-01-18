@@ -1,0 +1,40 @@
+<nav id="filterNav">
+
+<h2>Filter Portfolio</h2>
+
+<ul>
+<li class="allwork"><a href="xhtmlcss.html">All Work</a></li>
+</ul>
+
+<h3>Web Development</h3>
+<ul>
+<li class="xhtmlcss"><a href="xhtmlcss.html">All Web Development</a></li>
+<li class="xhtmlcss"><a href="xhtmlcss.html">HTML/CSS</a></li>
+<li class="javascript"><a href="javascript.html">Javascript</a></li>
+<!--<li class="javascript"><a href="javascript.html">jQuery</a></li>-->
+<!--<li class="javascript"><a href="javascript.html">AJAX</a></li>-->
+<!--<li class="javascript"><a href="javascript.html">ColdFusion</a></li>-->
+
+
+</ul>
+
+<h3>Companies</h3>
+<ul>
+<li class="barclays"><a href="barclays-capital.html">Barclays Capital</a></li>
+<li class="ajmadison"><a href="aj-madison.html">AJ Madison</a></li>
+<li class="pthca"><a href="personal-touch.html">Personal Touch</a></li>
+</ul>
+
+
+<h3>Web Graphics</h3>		
+<ul>
+<li class="ui"><a href="user-interfaces.html">All Web Graphics</a></li>
+<li class="ui"><a href="user-interfaces.html">User Interfaces</a></li>
+<li class="banners"><a href="banners.html">Web Banners</a></li>
+<li><a href="barclays-icons.html">Icons</a></li>
+<li class="photoshop"><a href="photoshop.html">Photoshop</a></li>
+<li class="illustrator"><a href="illustrator.html">Illustrator</a></li>
+
+</ul>
+
+</nav>  

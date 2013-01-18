@@ -1,0 +1,25 @@
+<header>
+
+<section id="headerContain">
+<hgroup>
+<a id="brand" href="index.html">Dmitry Mardukhayev</a>
+<a id="trade" href="http://kooljoy.com/about.html">Web Developer & Designer</a>
+</hgroup>
+<!--    <ul>
+    <li class="alpha"><a href="index.html">Home</a></li>
+    <li><a href="mywork.html">My Work</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="about.html">About</a></li>
+    <li class="omega"><a href="contact.html">Contact</a></li>
+    </ul>-->
+<div class="btn-group">
+          <a class="btn btn-large" href="index.html">Home</a>
+          <a class="btn btn-large" href="mywork.html">My Work</a>
+          <a class="btn btn-large" href="skills.html">Skills</a>
+          <a class="btn btn-large" href="about.html">About</a>
+          <a class="btn btn-large" href="contact.html">Contact</a>
+        </div>
+</section>
+
+
+</header>

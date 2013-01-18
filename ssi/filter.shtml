@@ -1,0 +1,14 @@
+<nav id="filterNav">
+
+<h3>Filter Portfolio</h3>
+
+<ul>
+<li class="allwork"><a href="index.html">All Work</a></li>
+<li class="barclays"><a href="barclays-capital.html">Barclays Capital</a></li>
+<li class="ajmadison"><a href="aj-madison.html">AJ Madison</a></li>
+<li class="adaptive"><a href="adaptive-apparel.html">Adaptive Apparel</a></li>
+<li class="adaptive"><a href="healthcare-apparel.html">Health Care Apparel</a></li>
+</ul>
+
+
+</nav>  

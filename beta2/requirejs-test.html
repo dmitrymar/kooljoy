@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Requirejs Test</title>
+<script src="scripts/require.js"></script>
+<script>
+    require(["scripts/test.js"], function(someModule) {
+        //This function will be called when all the dependencies
+        //listed above are loaded. Note that this function could
+        //be called before the page is loaded.
+        //This callback is optional.
+    });
+</script>
+
+</head>
+
+<body>
+<h1>Require JS Test</h1>
+<p>test</p>
+</body>
+</html>
